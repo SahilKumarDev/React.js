@@ -1,13 +1,14 @@
-import React from 'react'
-import "./App.css"
+// import React from 'react'
+// import "./App.css"
 
-const App = () => {
-  return (
-    <h1>Hello, villan</h1>
-  )
-};
+// const App = () => {
+//   const Name = "villan"
+//   return (
+//     <h1>Hello, { Name }</h1>
+//   )
+// };
 
-export default App
+// export default App
 
 // // This is behind the scene working
 // import React from 'react'
@@ -34,3 +35,17 @@ export default App
 //   }
 
 // export default App
+
+
+// USE OF TERNARRY OPERATOR.
+import React from 'react'
+import "./App.css"
+
+const App = () => {
+  const DisplayNames = true
+  return (
+    <h1>Hello, { DisplayNames? "Villan" : "Life"}</h1>
+  )
+};
+
+export default App
